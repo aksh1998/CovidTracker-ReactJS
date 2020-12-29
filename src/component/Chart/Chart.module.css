@@ -1,12 +1,12 @@
-.container{
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 500px;
+.container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
 }
 
 @media screen and (max-width: 900px) {
-    .container{
-        width: 100%;
-    }
+  .container {
+    width: 100%;
   }
+}
