@@ -4,20 +4,12 @@ import styles from './DistrictPicker.module.css';
 
 import { fetchDistrictsName } from '../../api';
 
-const DistrictPicker = ({ state, handleDistrictChange }) => {
-    const [fetchedDistricts, setFetchedDistricts] = useState([]);
-
-    useEffect(() => {
-        const fetchDistrictsDataApi = async () => {
-            setFetchedDistricts(await fetchDistrictsName(state));
-        };
-        fetchDistrictsDataApi();
-    }, [setFetchedDistricts]);
+const DistrictPicker = ({ districtList, handleDistrictChange }) => {
     return (
         <FormControl className={styles.formControl}>
             <NativeSelect defaultValue="" onChange={(e) => handleDistrictChange(e.target.value)}>
                 <option value="">------</option>
-                {fetchedDistricts.map((District, i) => <option key={i} value={District}>{District}</option>)}
+                {districtList.map((District, i) => <option key={i} value={District}>{District}</option>)}
             </NativeSelect>
         </FormControl>
     );

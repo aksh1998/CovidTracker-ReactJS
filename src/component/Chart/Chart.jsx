@@ -38,11 +38,11 @@ const Chart = ({ data, country }) => {
             ? (
                 <Bar
                     data={{
-                        labels: [(data.confirmed ? 'Infected' : 'Infected: Data not available'), (data.recovered ? 'Recovered' : 'Recovered: Data not available'), (data.deaths ? 'Deaths' : 'Deaths: Data not available')],
+                        labels: [(data.confirmed ? 'Infected' : ''), (data.recovered ? 'Recovered' : ''), (data.deaths ? 'Deaths' : '')],
                         datasets: [{
                             label: 'People',
                             backgroundColor: ['blue', 'green', 'red'],
-                            data: [(data.confirmed ? data.confirmed.value : 0), (data.recovered ? data.recovered.value : 0), (data.deaths ? data.deaths.value : 0)]
+                            data: [(data.confirmed ? data.confirmed.value : 0), (data.recovered ? data.recovered.value : null), (data.deaths ? data.deaths.value : null)]
                         }]
                     }}
                     options={{
