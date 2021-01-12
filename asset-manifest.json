@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/CovidTracker-ReactJS/static/css/main.caae91b5.chunk.css",
-    "main.js": "/CovidTracker-ReactJS/static/js/main.1a5ff314.chunk.js",
-    "main.js.map": "/CovidTracker-ReactJS/static/js/main.1a5ff314.chunk.js.map",
+    "main.js": "/CovidTracker-ReactJS/static/js/main.a4707c99.chunk.js",
+    "main.js.map": "/CovidTracker-ReactJS/static/js/main.a4707c99.chunk.js.map",
     "runtime-main.js": "/CovidTracker-ReactJS/static/js/runtime-main.a43390a5.js",
     "runtime-main.js.map": "/CovidTracker-ReactJS/static/js/runtime-main.a43390a5.js.map",
-    "static/js/2.03508dd5.chunk.js": "/CovidTracker-ReactJS/static/js/2.03508dd5.chunk.js",
-    "static/js/2.03508dd5.chunk.js.map": "/CovidTracker-ReactJS/static/js/2.03508dd5.chunk.js.map",
+    "static/js/2.84793bfd.chunk.js": "/CovidTracker-ReactJS/static/js/2.84793bfd.chunk.js",
+    "static/js/2.84793bfd.chunk.js.map": "/CovidTracker-ReactJS/static/js/2.84793bfd.chunk.js.map",
     "index.html": "/CovidTracker-ReactJS/index.html",
     "static/css/main.caae91b5.chunk.css.map": "/CovidTracker-ReactJS/static/css/main.caae91b5.chunk.css.map",
-    "static/js/2.03508dd5.chunk.js.LICENSE.txt": "/CovidTracker-ReactJS/static/js/2.03508dd5.chunk.js.LICENSE.txt"
+    "static/js/2.84793bfd.chunk.js.LICENSE.txt": "/CovidTracker-ReactJS/static/js/2.84793bfd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a43390a5.js",
-    "static/js/2.03508dd5.chunk.js",
+    "static/js/2.84793bfd.chunk.js",
     "static/css/main.caae91b5.chunk.css",
-    "static/js/main.1a5ff314.chunk.js"
+    "static/js/main.a4707c99.chunk.js"
   ]
 }
