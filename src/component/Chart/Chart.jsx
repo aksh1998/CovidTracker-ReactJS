@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { fetchDailyData } from '../../api';
-import { Line, Bar } from 'react-chartjs-2';
+import { Line, Bar,Chart } from 'react-chartjs-2';
 import styles from './Chart.module.css';
-
-const Chart = ({ data, country }) => {
+import { PieChart } from 'react-minimal-pie-chart';
+const DisplayChart = ({ data, country }) => {
     const [dailyData, setDailyData] = useState([]);
     useEffect(() => {
         const fetchApi = async () => {
@@ -59,4 +59,4 @@ const Chart = ({ data, country }) => {
     );
 }
 
-export default Chart;
+export default DisplayChart;
